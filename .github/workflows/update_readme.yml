@@ -1,0 +1,34 @@
+name: Update README with Top Followers
+on:
+  schedule:
+    - cron: '0 0 * * *' # Corre todos los dias a medianoche UTC
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Necesario para hacer push del README
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Update README with most followed followers
+        env:
+          GITHUB_USER_NAME: ${{ github.repository_owner }}
+          MAX_FOLLOWER_COUNT: 10
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_readme.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'NachoOFC'
+          git config --global user.email '105531940+NachoOFC@users.noreply.github.com'
+          git add README.md
+          git commit -m "Automated README update" || exit 0
+          git push
