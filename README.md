@@ -16,5 +16,5 @@ mis seguidores mas famosos
 | [<img src="https://avatars.githubusercontent.com/u/16355486?v=4" width="40" height="40">](https://github.com/dbunt1tled) | [deni](https://github.com/dbunt1tled) | 10133 |
 | [<img src="https://avatars.githubusercontent.com/u/130789571?v=4" width="40" height="40">](https://github.com/otaviossousa) | [Otavio Sousa](https://github.com/otaviossousa) | 9337 |
 
-*Last updated: 2026-07-30 21:21:43 UTC*
+*Última actualización: 2026-07-30 21:21:43 UTC*
 <!-- FOLLOWERS_LIST_END -->
