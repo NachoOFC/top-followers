@@ -100,7 +100,7 @@ def build_table(top_followers):
 
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
     lines.append("")
-    lines.append(f"*Last updated: {now}*")
+    lines.append(f"*Última actualización: {now}*")
     return "\n".join(lines)
 
 
