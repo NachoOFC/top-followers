@@ -1,4 +1,4 @@
-# 🔱 Cómo usar este repo (si lo forkeaste)
+# Cómo usar este repo (si lo forkeaste)
 
 Este proyecto genera automáticamente una tabla en tu README.md con tus seguidores más
 seguidos de GitHub (los que tienen más followers propios), usando la API oficial de
@@ -31,7 +31,7 @@ aparezca la tabla de seguidores:
 <!-- FOLLOWERS_LIST_END -->
 ```
 
-⚠️ **Importante:** si no agregas estos marcadores, el script fallará porque no sabe
+**Importante:** si no agregas estos marcadores, el script fallará porque no sabe
 dónde insertar la tabla.
 
 ---
@@ -119,7 +119,7 @@ cuando quieras desde la pestaña Actions.
 
 ---
 
-## ❓ Problemas comunes
+## ???Problemas comunes
 
 | Problema | Causa probable |
 | --- | --- |
